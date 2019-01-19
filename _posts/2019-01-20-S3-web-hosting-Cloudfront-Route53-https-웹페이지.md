@@ -4,7 +4,6 @@ date: 2017-10-20 08:26:28 -0400
 categories: aws
 Tags: .app,cloudfront,hosting,https,route53,s3,ssl,webpage
 ---
-# S3 web hosting + Cloudfront + Route53 로 https 웹페이지 올리기
 
 
 ## mydomain.app 이라는 도메인을 사용하는 웹페이지를 aws 에서 만들어보자
