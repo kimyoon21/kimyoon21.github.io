@@ -19,7 +19,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
 2. s3 버킷 생성 (내 리전 잘 확인해서 버킷을 생성)
 3. 해당 버킷 선택 후, 속성에 가서 정적웹사이트 호스팅 허용
 
-    ![](Untitled-3d60681e-5e3b-46d3-bf0e-57a8fd78b18d.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/Untitled-3d60681e-5e3b-46d3-bf0e-57a8fd78b18d.png)
 
 4. index.html 파일을 만들어서 해당 버킷에 업로드 
     - 그리고 나면 위 endpoint 로 웹사이트처럼 접속이 가능. 근데 해보면 access denie 가 뜰것이다. s3 권한이 일반유저에게 없기때문이다. 그래서 정책을 추가한다.
