@@ -19,7 +19,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
 2. s3 버킷 생성 (내 리전 잘 확인해서 버킷을 생성)
 3. 해당 버킷 선택 후, 속성에 가서 정적웹사이트 호스팅 허용
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/Untitled-3d60681e-5e3b-46d3-bf0e-57a8fd78b18d.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/Untitled-3d60681e-5e3b-46d3-bf0e-57a8fd78b18d.png)
 
 4. index.html 파일을 만들어서 해당 버킷에 업로드 
     - 그리고 나면 위 endpoint 로 웹사이트처럼 접속이 가능. 근데 해보면 access denie 가 뜰것이다. s3 권한이 일반유저에게 없기때문이다. 그래서 정책을 추가한다.
@@ -45,6 +45,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
     이때, 버킷의 public access 설정 부분이 true 로 되어있으면 정책오류라면서 안된다. false 로 바꾸니 해결.
 
     ![](Untitled-96fb9fe6-4f0f-4e34-b3ac-ff3cc2fd095b.png)
+    ![]({{ site.url }}{{ site.baseurl }}/assets/images/Untitled-96fb9fe6-4f0f-4e34-b3ac-ff3cc2fd095b.png)
 
      다 끝났으면, 위 endpoint 를 눌러서 해당 웹서버가 호스팅 잘 되는지 테스트해보자!
 
@@ -56,6 +57,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
     - 자, origin domain name 에 ~~위에서 만든 버킷을 세팅~~.... **하면 안된다!!!!**
 
         ![](AWSCloudFrontManagementConsole2019-01-2001-08-53(1)-da208407-630a-4b65-84c1-791e26f4f728.jpg)
+        ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/AWSCloudFrontManagementConsole2019-01-2001-08-53(1)-da208407-630a-4b65-84c1-791e26f4f728.jpg)
 
         잘못의 시작..
 
@@ -69,6 +71,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
             > 혹시 이미 s3 로 생성해버렸다면?! (저처럼...ㅜ) 아래처럼 해보자.
 
             ![](AWSCloudFrontManagementConsole2019-01-2001-26-51(1)-dec17ef4-ded1-4a8e-9c6f-bf2581f6857b.jpg)
+            ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/AWSCloudFrontManagementConsole2019-01-2001-26-51(1)-dec17ef4-ded1-4a8e-9c6f-bf2581f6857b.jpg)
 
             혹시나 이미 잘못 만들었을 경우, 해당 cf 선택후 설정에 가서 origins and origin groups 에 가서 다시 s3 web endpoint 로 추가해주고, Behaviors 가서 디폴트 캐싱을 새 오리진으로 바꾼 다음. 기존 오리진을 삭제해버리면 된다.
 
@@ -81,12 +84,13 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
         - 후에 cname 과 일치하는 도메인만 route53 에서 적용이 가능하므로 정확히 입력
 
         ![](AWSCloudFrontManagementConsole2019-01-2000-36-31-d17f811f-dc80-4e09-a667-473cbdf052e0.jpg)
+        ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/AWSCloudFrontManagementConsole2019-01-2001-26-51(1)-dec17ef4-ded1-4a8e-9c6f-bf2581f6857b.jpg)
 
     - SSL 인증서는 사실 https 를 안쓰면 불필요하지만, 이 예제는 https 가 필수이므로 꼭 적용해줘야 한다. cname 을 써서 내 도메인으로 배포하려면 커스텀 ssl이 필수
         - 없으면 아래 버튼으로 새로 추가하면 된다. certificate manager 서비스 로 연결된다.
 
         ![](AWSCloudFrontManagementConsole2019-01-2000-37-01(1)-cb49626e-89e5-4e81-9065-ce521265b6c5.jpg)
-
+        ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/AWSCloudFrontManagementConsole2019-01-2000-37-01(1)-cb49626e-89e5-4e81-9065-ce521265b6c5.jpg)
             <Certificate Manager>
             - 적용 내가 적용할 도메인을 *.mydomain.com 등을 사용해서 여러개를 추가할 수 있다.
             - route53 으로 도메인을 관리중이라면, 꼭 DNS 방식으로 인증하길 바란다.
@@ -107,6 +111,7 @@ https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 clou
 3. cloudfront 가 status : Deployed 상태가 되고 나면 이제 레코드로 사용이 가능하다. 새 레코드를 추가해서 아래와 같이 해보자.
 
     ![](Route53ManagementConsole2019-01-2000-43-19(1)-83e70adf-b791-46d0-a3dc-7de8117ee2fe.jpg)
+    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/Route53ManagementConsole2019-01-2000-43-19(1)-83e70adf-b791-46d0-a3dc-7de8117ee2fe.jpg)
 
 4. 아까 만든 cloudfront 에 www 와 root 를 만들었기 때문에 저렇게 www.도메인을 입력하면 alias target 에 나타난다. (test.도메인 처럼 다른걸 입력하면 목록에서 cf 가 안보인다!)
 선택하고 생성해준다.
