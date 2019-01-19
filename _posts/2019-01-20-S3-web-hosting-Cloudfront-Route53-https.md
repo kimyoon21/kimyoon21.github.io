@@ -1,17 +1,17 @@
+---
+title: "Welcome to Jekyll!"
+date: 2017-10-20 08:26:28 -0400
+categories: jekyll update
+Tags: .app,cloudfront,hosting,https,route53,s3,ssl,webpage
+---
 # S3 web hosting + Cloudfront + Route53 로 https 웹페이지 올리기
 
-Last Edited: Jan 20, 2019 2:30 AM
-Tags: .app,cloudfront,hosting,https,route53,s3,ssl,webpage
-카테고리: 개발이야기
 
-# mydomain.app 이라는 도메인을 사용하는 웹페이지를 aws 에서 만들어보자
+## mydomain.app 이라는 도메인을 사용하는 웹페이지를 aws 에서 만들어보자
 
 .app 은 https 로 자동 리다이렉트되는 도메인입니다. 
-
 https 로 웹페이지를 운영 하려면 단순 s3 웹호스팅이 아닌 cloudfront 까지 적용해야만 합니다. 그리고 route53 으로 연결하는 과정이 필요합니다.
-
 그럼 순서대로 진행해보겠습니다. 저는 미리 사둔 [foodin.app](http://foodin.app) 이라는 도메인으로 시도했습니다.
-
 > 과정 자체는 어렵지 않지만, 중간중간 함정들을 잘 피해가야 정확하게 완료할 수 있음
 
 ## <S3 정적 웹 호스팅 하기>
