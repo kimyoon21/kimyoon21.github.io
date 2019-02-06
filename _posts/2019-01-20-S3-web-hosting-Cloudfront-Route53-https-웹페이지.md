@@ -1,6 +1,6 @@
 ---
 title: "S3 web hosting + Cloudfront + Route53 로 https 웹페이지 올리기"
-date: 2017-10-20 08:26:28 -0400
+date: 2019-01-20 08:26:28 -0400
 categories: aws
 Tags: .app,cloudfront,hosting,https,route53,s3,ssl,webpage
 ---
