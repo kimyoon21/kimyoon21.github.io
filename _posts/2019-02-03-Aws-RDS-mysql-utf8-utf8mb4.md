@@ -5,8 +5,6 @@ categories: mysql
 Tags: aws,rds,mysql,emoji,utf8mb4
 ---
 
-## 시작하며
-
  mysql 에서 utf8 은 3바이트로 실제 UTF-8 유니코드에서 4바이트를 쓰는것과 달리, 표현할 수 있는 캐릭터제한이 있었다. 한글 표시는 utf8 만 써도 되지만 이모지등은 utf8mb4 를 사용해야 표현이 가능하다.
 
     java.sql.SQLException: Incorrect string value: '\xEA\xB9\x80\xEC\x9C\xA4...' for column 'name' at row 1

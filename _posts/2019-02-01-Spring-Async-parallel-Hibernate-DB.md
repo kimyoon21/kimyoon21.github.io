@@ -54,7 +54,7 @@ Spring 내에서 동시에 여러 DB 작업을 처리하고, 그 결과값을 �
 
 Async 를 사용하기 위한 전제조건은 상세한 설명들이 링크에 있으니 참고바랍니다
 
-[How To Do @Async in Spring | Baeldung](https://www.baeldung.com/spring-async)
+[How To Do @Async in Spring - Baeldung](https://www.baeldung.com/spring-async)
 
 `@Async` 는 간단히 말하자면, proxy 를 사용하여 비동기처리를 수행하는 방식이기 때문에, 무조건 같은 서비스내 호출이 아닌 다른 서비스 혹은 컨트롤러에서 서비스 호출등으로 프록시를 거치게 해야 합니다. 그래서 기존에 `WidgetService` 내에서 setting 하는 부분을 떼어내서 `WidgetAsyncService` 를 추가해서 메소드를 만들어주고 위에 어노테이션을 붙였습니다.
 
