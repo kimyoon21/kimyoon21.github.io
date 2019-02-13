@@ -59,8 +59,7 @@ Tags: jira,confluence,evernote,협업툴
 - **커스터마이징이 다양하게 가능하다.**
     - 해당 글에서도 볼 수 있듯이 문서에도 온갖 데이터와 위젯을 끼워넣을 수 있다. ***슬래시/ 명령어로 이미지, 코드, 영상부터 다양한 3rd 파티 까지 삽입 가능!***
         
-        <video src="/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov" width="320" height="200" controls preload></video>
-        ![]({{ site.url }}{{ site.baseurl }}/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov)
+        <video src="/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov" width="640" controls preload></video>
 
 - 빠르고  디자인이 예쁘다
     - 어떻게 꾸미느냐에 따라 매우 아름답게 표현 가능. 다양한 디자인을 확인 가능합니다. (아래는 북마크 추가기능)
@@ -72,8 +71,7 @@ Tags: jira,confluence,evernote,협업툴
 - 타임라인, 캘린더 등을 통해 태스크를 다양한 뷰로 관리 가능
     - 테이블 형식등이 매우 편리하고, 다양한 형태의 기록물을 편집할 수 있다
     - **동일한 태스크(데이터베이스) 를 가지고 Board, table, calendar, gallery 등 다양하게 볼 수 있음**
-        
-        [-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov](-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov)
+         <video src="/assets/videos/-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov" width="640" controls preload></video>
 
     - 아래는 그런 데이터베이스를 inline 으로 삽입한 예시 (노션으로 뷰 형태를 바꿔가면서 봐보세요~)  <주의:Notion 에서 볼때만 Database 가 보입니다 >
 
@@ -140,8 +138,7 @@ Tags: jira,confluence,evernote,협업툴
 - `⌘ +a` 를 1번 누르면 해당 라인 전체를 2번 누르면 모든 문서내용을 선택할 수 있다. 라인(이 작은 단위를 뭐라고 불러야 할지 모르겠지만.. ) 별로 선택이 가능하기에 이런식으로 구분 되어 있어서 더 편함.
 - 템플릿 버튼!
     - 특정 작업페이지에는 어떤 픽스된 템플릿에 맞춰서만 추가적인 기록을 가능하게 하고 싶으면, / 눌러서 templiate button 들어간 뒤, 해당 템플릿을 내 입맛에 맞게 맞춰놓고 그 후 사용자들이 그 버튼만 누르면 내가 만든 템플릿이 하래 뚝딱뚝딱 바로 추가된다. 따로 복붙하고 지저분하게 그전꺼 지우고 이럴 필요 없이 깔끔함! (수정권한 없인 못써보기때문에 영상을 첨부했습니다)
-
-        [-d8056dee-f5cc-42bd-9fb7-60b715a7fe6f.mp4](/assets/videos/-d8056dee-f5cc-42bd-9fb7-60b715a7fe6f.mp4)
+        <video src="/assets/videos/-d8056dee-f5cc-42bd-9fb7-60b715a7fe6f.mp4" width="640" controls preload></video>
 
 ---
 
