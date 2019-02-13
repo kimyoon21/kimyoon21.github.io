@@ -58,9 +58,9 @@ Tags: jira,confluence,evernote,협업툴
 
 - **커스터마이징이 다양하게 가능하다.**
     - 해당 글에서도 볼 수 있듯이 문서에도 온갖 데이터와 위젯을 끼워넣을 수 있다. ***슬래시/ 명령어로 이미지, 코드, 영상부터 다양한 3rd 파티 까지 삽입 가능!***
-        - 
-
-            ![]({{ site.url }}{{ site.baseurl }}/-7f347118-8821-4598-8e36-3d1b2426b42e.mov)
+        
+        <video src="/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov" width="320" height="200" controls preload></video>
+        ![]({{ site.url }}{{ site.baseurl }}/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov)
 
 - 빠르고  디자인이 예쁘다
     - 어떻게 꾸미느냐에 따라 매우 아름답게 표현 가능. 다양한 디자인을 확인 가능합니다. (아래는 북마크 추가기능)
@@ -72,7 +72,7 @@ Tags: jira,confluence,evernote,협업툴
 - 타임라인, 캘린더 등을 통해 태스크를 다양한 뷰로 관리 가능
     - 테이블 형식등이 매우 편리하고, 다양한 형태의 기록물을 편집할 수 있다
     - **동일한 태스크(데이터베이스) 를 가지고 Board, table, calendar, gallery 등 다양하게 볼 수 있음**
-
+        
         [-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov](-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov)
 
     - 아래는 그런 데이터베이스를 inline 으로 삽입한 예시 (노션으로 뷰 형태를 바꿔가면서 봐보세요~)  <주의:Notion 에서 볼때만 Database 가 보입니다 >
