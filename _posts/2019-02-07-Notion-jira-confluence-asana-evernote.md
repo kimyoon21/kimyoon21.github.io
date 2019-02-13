@@ -59,7 +59,7 @@ Tags: jira,confluence,evernote,협업툴
 - **커스터마이징이 다양하게 가능하다.**
     - 해당 글에서도 볼 수 있듯이 문서에도 온갖 데이터와 위젯을 끼워넣을 수 있다. ***슬래시/ 명령어로 이미지, 코드, 영상부터 다양한 3rd 파티 까지 삽입 가능!***
         
-        <video src="/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov" width="640" controls preload></video>
+        <video src="/assets/videos/-7f347118-8821-4598-8e36-3d1b2426b42e.mov" width="420" controls preload></video>
 
 - 빠르고  디자인이 예쁘다
     - 어떻게 꾸미느냐에 따라 매우 아름답게 표현 가능. 다양한 디자인을 확인 가능합니다. (아래는 북마크 추가기능)
