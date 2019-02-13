@@ -1,5 +1,5 @@
 ---
-title: "# Notion Database (테이블) 아이템 생성 시 기본값 적용"
+title: "Notion Database (테이블) 아이템 생성 시 기본값 적용"
 date: 2019-02-13
 categories: notion
 Tags: notion,db,table

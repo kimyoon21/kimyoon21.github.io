@@ -5,8 +5,8 @@ categories: notion
 Tags: jira,confluence,evernote,협업툴
 ---
 
-시작하기 전에, 만약 이 글을 다른 플랫폼(미디엄이나 깃헙등) 에서 보고 계시다면,  ***아래에서 보셔야 확실한 노션맛을 보실 수 있습니다.***
-[notion 체험기](https://www.notion.so/kimyoon21/Notion-jira-confluence-asana-evernote-ae7bad46ed774c969a63fe34a93bd342)
+시작하기 전에, 만약 이 글을 다른 플랫폼(미디엄이나 깃헙등) 에서 보고 계시다면,  ***여기에서 보셔야 확실한 노션맛을 보실 수 있습니다.***
+[해당 글 Notion 에서 보기](https://www.notion.so/kimyoon21/Notion-jira-confluence-asana-evernote-ae7bad46ed774c969a63fe34a93bd342)
 
 # Notion 이란?
 
@@ -57,10 +57,10 @@ Tags: jira,confluence,evernote,협업툴
 ## 다른 app 들의 장점들을 모조리 흡수했다
 
 - **커스터마이징이 다양하게 가능하다.**
-    - 해당 글에서도 볼 수 있듯이 문서에도 온갖 데이터와 위젯을 끼워넣을 수 있다. ***슬래시/ 명령어로 이미지, 코드, 영상부터 다양한 3rd파티 까지 삽입 가능!***
+    - 해당 글에서도 볼 수 있듯이 문서에도 온갖 데이터와 위젯을 끼워넣을 수 있다. ***슬래시/ 명령어로 이미지, 코드, 영상부터 다양한 3rd 파티 까지 삽입 가능!***
         - 
 
-            [-7f347118-8821-4598-8e36-3d1b2426b42e.mov](-7f347118-8821-4598-8e36-3d1b2426b42e.mov)
+            ![]({{ site.url }}{{ site.baseurl }}/-7f347118-8821-4598-8e36-3d1b2426b42e.mov)
 
 - 빠르고  디자인이 예쁘다
     - 어떻게 꾸미느냐에 따라 매우 아름답게 표현 가능. 다양한 디자인을 확인 가능합니다. (아래는 북마크 추가기능)
@@ -75,7 +75,7 @@ Tags: jira,confluence,evernote,협업툴
 
         [-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov](-00cbea2d-f2c3-4708-96c9-8c288291ecbd.mov)
 
-    - 아래는 그런 데이터베이스를 inline 으로 삽입한 예시 (노션으로 뷰 형태를 바꿔가면서 봐보세요~)
+    - 아래는 그런 데이터베이스를 inline 으로 삽입한 예시 (노션으로 뷰 형태를 바꿔가면서 봐보세요~)  <주의:Notion 에서 볼때만 Database 가 보입니다 >
 
     [inline 으로 생성한DB](/assets/csv/inline-DB-7810f6d3-231c-495b-9ff2-cefd31b7b23c.csv)
 
@@ -100,7 +100,7 @@ Tags: jira,confluence,evernote,협업툴
             /**바로 어떤 코드타입인지 설정해서 편하게 사용 가능하다.**/
 
 - framer , invision 등 삽입
-    - 다른 서비스에도 없던것은 아니지만, 매우 간단하게 삽입이 가능. 아래 폰을 클릭해보세요~
+    - 다른 서비스에도 없던것은 아니지만, 매우 간단하게 삽입이 가능. 아래 폰을 클릭해보세요~  <주의:Notion 에서 볼때만 embedded framer 가 보입니다 >
 
         [https://framer.cloud/TFPWZ](https://framer.cloud/TFPWZ)
 
